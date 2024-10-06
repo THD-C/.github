@@ -1,12 +1,39 @@
-## Hi there 👋
+Appka do trading'u kryptowalut, rodzaj trenera, 
+który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
 
-<!--
 
-**Here are some ideas to get you started:**
+# Key points
+1. Autoryzacja z wykorzystaniem zewnętrznych serwisów:
+   - Google
+   - Microsoft
+   - Facebook
+2. Wymogi formalno-prawne:
+   - Regulamin
+   - RODO
+   - akceptacja o Cookies, jeśli są
+3. Otwieranie rachunków w różnych walutach
+4. Kupowanie sprzedawanie instrumentów (zlecenia instant i pending)
+5. Historia operacji na kontach (wpłaty wypłaty)
+6. Historia transakcji (sprzedane, kupione)
+7. Wykresy cen, pozyskanych z zewnętrznych usług
+8. Zamiana walut, żeby można było mieć aplikacje w PLN, USD, EUR
+9. Mechanizm promocji i prowizji:
+    - do kwoty X, prowizja wynosi 0%
+    - powyżej kwoty X, prowizja wynosi Y%
+10. Statystyki konta:
+    - Maksymalny zysk/strata, w różnych okresach w czasie:
+        - ostatni dzień
+        - ostatni tydzień
+        - ostatni miesiąc
+        - ostatni rok
+    - Udział procentowy danego instrumentu w całym koncie.
+11. Podłączenie do zewnętrznych API.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# Technologie
+## Docker
+### Baza danych
+PostgreSQL - Tabele definiowane przy użyciu SQLAlchemy
+### Frontend
+SCSS + Tailwind + React
+### Backend
+Python + FastAPI
