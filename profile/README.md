@@ -1,6 +1,7 @@
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/backend-liard-one?name=Backend)
+
 Appka do trading'u kryptowalut, rodzaj trenera, 
 który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
-
 
 # Key points
 1. Autoryzacja z wykorzystaniem zewnętrznych serwisów:
