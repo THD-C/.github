@@ -37,3 +37,43 @@ PostgreSQL - Tabele definiowane przy użyciu SQLAlchemy
 SCSS + Tailwind + React
 ### Backend
 Python + FastAPI
+
+![image](/Pictures/architecture.png)
+
+# SQL Database
+## Tabele
+1. Użytkownicy:
+    - username
+    - password
+    - dane osobowe
+    - data założenia konta
+    - user_id
+2. Transakcje:
+    - data
+    - rodzaj operacji (wpłata/wypłata)
+    - waluta
+    - kwota
+    - user_id
+3. Transakcje giełdowe:
+    - data (jeżeli transakcja zrealizowana to ma datę, jeśli czeka to data jest NULL)
+    - kryptowaluta
+    - kwota
+    - kurs 
+    - user_id
+    - rodzaj operacji (instant, stop loss, take profit)
+4. Rachunki/Salda krypto ( wynika z tab. nr 3)
+    - ilosc_crypto
+    - crypto_id
+    - user_id
+5. Rachunki/Salda fiat ( wynika z tab. nr 2)
+    - ilosc_pieniedzy
+    - waluta_id
+    - user_id
+6. Zlecenia
+
+# No SQL Database
+1. Template stron z translacjami (strona główna, rodo, strona z wykresem krypto (niezależne od waluty), do długich tekstów)
+    - id strony
+    - język
+    - tytuł z headera
+    - treść
