@@ -40,6 +40,7 @@ SCSS + Tailwind + React
 Python + FastAPI
 
 ![image](/Pictures/architecture.png)
+![image](/Pictures/database.png)
 
 # SQL Database
 ## Tabele
@@ -47,7 +48,6 @@ Python + FastAPI
     - username
     - password
     - dane osobowe
-    - data założenia konta
     - user_id
 2. Transakcje:
     - data
@@ -62,7 +62,7 @@ Python + FastAPI
     - kurs 
     - user_id
     - rodzaj operacji (instant, stop loss, take profit)
-4. Rachunki/Salda krypto ( wynika z tab. nr 3)
+4. Wallet ( wynika z tab. nr 3)
     - ilosc_crypto
     - crypto_id
     - user_id
