@@ -38,3 +38,5 @@ który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkowni
 - [Frontend API](https://github.com/THD-C/Frontend_API)
 - [DB Manager](https://github.com/THD-C/DB_Manager)
 - [Price Manager](https://github.com/THD-C/CoinGecko_API)
+- [No SQL](https://github.com/THD-C/Mongo)
+- [SQL](https://github.com/THD-C/Postgres)
