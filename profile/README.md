@@ -39,7 +39,9 @@ SCSS + Tailwind + React
 ### Backend
 Python + FastAPI
 
-![image](/Pictures/architecture.png)
+<p float="left">
+  <img src="/Pictures/architecture.png" width="45%" />
+</p>
 
 # No SQL Database
 1. Template stron z translacjami (strona główna, rodo, strona z wykresem krypto (niezależne od waluty), do długich tekstów)
