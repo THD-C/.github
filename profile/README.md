@@ -30,22 +30,11 @@ który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkowni
     - Udział procentowy danego instrumentu w całym koncie.
 11. Podłączenie do zewnętrznych API.
 
-# Technologie
-## Docker
-### Baza danych
-PostgreSQL - Tabele definiowane przy użyciu SQLAlchemy
-### Frontend
-SCSS + Tailwind + React
-### Backend
-Python + FastAPI
-
 <p float="left">
   <img src="/Pictures/architecture.png" width="45%" />
 </p>
 
-# No SQL Database
-1. Template stron z translacjami (strona główna, rodo, strona z wykresem krypto (niezależne od waluty), do długich tekstów)
-    - id strony
-    - język
-    - tytuł z headera
-    - treść
+- [Frontend](https://github.com/THD-C/Frontend)
+- [Frontend API](https://github.com/THD-C/Frontend_API)
+- [DB Manager](https://github.com/THD-C/DB_Manager)
+- [Price Manager](https://github.com/THD-C/CoinGecko_API)
