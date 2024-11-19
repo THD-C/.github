@@ -1,4 +1,4 @@
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/backend-liard-one?name=Backend)
+[![Build Docker Images](https://github.com/THD-C/The_THDc_App/actions/workflows/build.yml/badge.svg)](https://github.com/THD-C/The_THDc_App/actions/workflows/build.yml)
 
 Appka do trading'u kryptowalut, rodzaj trenera, 
 który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
