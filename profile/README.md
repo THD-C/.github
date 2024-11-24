@@ -31,12 +31,13 @@ który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkowni
 11. Podłączenie do zewnętrznych API.
 
 <p float="left">
-  <img src="/Pictures/architecture.png" width="45%" />
+  <img src="/Pictures/architecture.png" width="75%" />
 </p>
 
 - [Frontend](https://github.com/THD-C/Frontend)
 - [Frontend API](https://github.com/THD-C/Frontend_API)
 - [DB Manager](https://github.com/THD-C/DB_Manager)
+- [Mongo Manager](https://github.com/THD-C/Mongo_Manager)
 - [Price Manager](https://github.com/THD-C/CoinGecko_API)
 - [No SQL](https://github.com/THD-C/Mongo)
 - [SQL](https://github.com/THD-C/Postgres)
