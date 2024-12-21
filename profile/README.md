@@ -1,4 +1,6 @@
-[![Build Docker Images](https://github.com/THD-C/The_THDc_App/actions/workflows/build.yml/badge.svg)](https://github.com/THD-C/The_THDc_App/actions/workflows/build.yml)
+[![Deploy Service](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml/badge.svg)](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml)
+[![Synthetic Tests](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml/badge.svg)](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml)
+
 
 Appka do trading'u kryptowalut, rodzaj trenera, 
 który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
