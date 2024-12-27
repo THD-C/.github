@@ -2,36 +2,10 @@
 [![Synthetic Tests](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml/badge.svg)](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml)
 [![Deploy Service](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml/badge.svg)](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml)
 
-
 Appka do trading'u kryptowalut, rodzaj trenera, 
 który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
 
-# Key points
-1. Autoryzacja z wykorzystaniem zewnętrznych serwisów:
-   - Google
-   - Microsoft
-   - Facebook
-2. Wymogi formalno-prawne:
-   - Regulamin
-   - RODO
-   - akceptacja o Cookies, jeśli są
-3. Otwieranie rachunków w różnych walutach
-4. Kupowanie sprzedawanie instrumentów (zlecenia instant i pending)
-5. Historia operacji na kontach (wpłaty wypłaty)
-6. Historia transakcji (sprzedane, kupione)
-7. Wykresy cen, pozyskanych z zewnętrznych usług
-8. Zamiana walut, żeby można było mieć aplikacje w PLN, USD, EUR
-9. Mechanizm promocji i prowizji:
-    - do kwoty X, prowizja wynosi 0%
-    - powyżej kwoty X, prowizja wynosi Y%
-10. Statystyki konta:
-    - Maksymalny zysk/strata, w różnych okresach w czasie:
-        - ostatni dzień
-        - ostatni tydzień
-        - ostatni miesiąc
-        - ostatni rok
-    - Udział procentowy danego instrumentu w całym koncie.
-11. Podłączenie do zewnętrznych API.
+[key points](/key-points.md)
 
 <p float="left">
   <img src="/Pictures/architecture.png" width="75%" />
@@ -42,5 +16,6 @@ który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkowni
 - [DB Manager](https://github.com/THD-C/DB_Manager)
 - [Mongo Manager](https://github.com/THD-C/Mongo_Manager)
 - [Price Manager](https://github.com/THD-C/CoinGecko_API)
-- [No SQL](https://github.com/THD-C/Mongo)
-- [SQL](https://github.com/THD-C/Postgres)
+- [Orders Service](https://github.com/THD-C/order_service)
+- [MongoDB](https://github.com/THD-C/Mongo)
+- [PostgreSQL](https://github.com/THD-C/Postgres)
