@@ -2,14 +2,12 @@
 [![Synthetic Tests](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml/badge.svg)](https://github.com/THD-C/SyntheticTest/actions/workflows/run-synthetic-tests.yml)
 [![Deploy Service](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml/badge.svg)](https://github.com/THD-C/The_THDc_App/actions/workflows/deploy-service.yml)
 
-Appka do trading'u kryptowalut, rodzaj trenera, 
-który pobiera rzeczywiste ceny poszczególnych kryptowalut i pozwala użytkownikowi podejmować decyzje o zakupie, sprzedaży.
+THD(c) is a microservices application to practice crypto currency trading
 
-[key points](/key-points.md)
+[Docs](https://github.com/THD-C/Documentation)
 
-<p float="left">
-  <img src="/Pictures/architecture.png" width="75%" />
-</p>
+![image](/Pictures/architecture.png)
+
 
 - [Frontend](https://github.com/THD-C/Frontend)
 - [Frontend API](https://github.com/THD-C/Frontend_API)
